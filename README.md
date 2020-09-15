@@ -14,6 +14,8 @@ docker run -p 8888:8888 edvlavr/titanic:0.0.1
 ```
 Server logs and URLs will appear on container start. Copy and paste the last URL in your browser
 
+#### Docker destroys the container after notebook server exit, but files written to ~/work in the container remain intact. Any other changes made in the container will be lost!
+
 ### Results
 
 ##### Logistic Regression accuracy: 78.07%
