@@ -1,4 +1,4 @@
-# Titanic Predictions
+# Titanic Survival Predictions
 
 Analysing Titanic dataset using Apache SparkML on a Docker container
 
