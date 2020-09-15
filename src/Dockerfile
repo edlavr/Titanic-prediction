@@ -1,6 +1,4 @@
 FROM jupyter/pyspark-notebook:6d42503c684f
 
-ADD "Titanic.ipynb" $HOME
-ADD "titanic.csv" $HOME
-
-RUN rmdir work
+ADD "Titanic.ipynb" $HOME/work
+ADD "titanic.csv" $HOME/work
